@@ -8,11 +8,8 @@ public class User {
 
 	@Id
 	private String id;
-	
 	private String name;
-	
 	private int age;
-	
 	private String status;
 
 	public User(String name, int age, String status) {
@@ -32,5 +29,4 @@ public class User {
 	public String getStatus() {
 		return status;
 	}
-
 }
